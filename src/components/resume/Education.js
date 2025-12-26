@@ -12,12 +12,12 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2015 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="PgCert Software Project Management in the Age of Sensor Data and Artificial Intelligence"
+            title="Software Project Management in the Age of Sensor Data and AI"
             subTitle="UFJF (2025 - 2026)"
             result="Brazil"
             des="Specialize management and IT professionals in the use of processes, practices,
@@ -47,7 +47,7 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2018 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -64,10 +64,9 @@ const Education = () => {
             title="Senior Quality Assurance Engineer / QA Lead"
             subTitle="Tateeda Global - (2023 - 2025)"
             result="San Diego, USA"
-            des="Led the creation and evolution of E2E and mobile test automation, including API 
+            des="Led the creation and evolution of E2E test automation, including API 
             validations, test planning, and user experience improvements. Reviewed pull requests, 
-            evaluated automation solutions, and mentored the team on best practices, 
-            establishing a strong feedback loop with clients. Achieved significant impact 
+            evaluated automation solutions, and mentored the team on best practices. Achieved significant impact 
             by increasing automation pass rate from 38% to 98%, expanding test coverage by 250%, 
             and upskilling the entire team in Cypress."
           />
