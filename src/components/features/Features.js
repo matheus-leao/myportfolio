@@ -14,39 +14,34 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Test Strategy"
+          des="Define and implement Test Strategy, including Test Plan design and Optimization."
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Automation Strategy"
+          des="Define and implement Automation Strategy on all phases of the 
+          Software Development Life Cycle."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="API & e2e Testing"
+          des="Create and define automation projects on API and e2e testing 
+          with many tools and languages."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Pipeline Design and Optimization"
+          des="Design and optimize pipelines using YAML and Azure Devops. "
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Synthetic and Monitoring"
+          des="Create synthetic tests to improve monitoring with alerts and thresholds."
           icon={<SiAntdesign />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Mentorship"
+          des="Mentored QA team members in e2e testing, system design, and quality best practices."
           icon={<FaGlobe />}
         />
       </div>
